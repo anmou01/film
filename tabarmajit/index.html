@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشاهدة الأفلام والمسلسلات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+        header {
+            background-color: #141414;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #f4c10f;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #f4c10f;
+        }
+        .hero {
+            background-image: url('https://wallpaperaccess.com/full/2461293.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin: 0;
+            color: #fff;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .movie {
+            background: #222;
+            border-radius: 8px;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+        .movie h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .movie p {
+            font-size: 14px;
+            color: #aaa;
+            margin: 0 0 10px;
+        }
+        .movie button {
+            background-color: #f4c10f;
+            color: #000;
+            border: none;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .movie button:hover {
+            background-color: #d4a10f;
+        }
+        footer {
+            background-color: #141414;
+            color: #aaa;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cima4U</h1>
+</header>
+
+<nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">الأفلام</a>
+    <a href="#">المسلسلات</a>
+    <a href="#">اتصل بنا</a>
+</nav>
+
+<div class="hero">
+    <h2>استمتع بمشاهدة أحدث الأفلام والمسلسلات</h2>
+</div>
+
+<div class="container">
+    <h2 style="text-align: center;">أحدث الإصدارات</h2>
+    <div class="movies">
+        <div class="movie">
+            <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/tadc_poster_1000px.jpg" alt="فيلم 1">
+            <h3>اسم الفيلم 1</h3>
+            <p>الوصف: فيلم رائع ومثير</p>
+            <button>مشاهدة الآن</button>
+        </div>
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/PWwkOga48SmpjSE1HyGCXRnpRrQkQxN7-NXJq1CcjAY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qll6Z3dZMkkx/WkRNdE1tRXlNaTAw/TVRGakxUZzBOakl0/TnpZME5XWTJaRFJp/WkRaalhrRXlYa0Zx/Y0djQC5qcGc" alt="فيلم 2">
+            <h3>اسم الفيلم 2</h3>
+            <p>الوصف: دراما مشوقة</p>
+            <button>مشاهدة الآن</button>
+        </div>
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/KWQTA_RiiiMF_RqIlbHSZj7BB-O8E2sMkzOhvpd1UE8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/am9ibG8uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI0LzA3/LzE5OTItcG9zdGVy/LTQwMHg2MDAuanBn" alt="فيلم 3">
+            <h3>اسم الفيلم 3</h3>
+            <p>الوصف: أكشن مليء بالإثارة</p>
+            <button>مشاهدة الآن</button>
+        </div>
+    </div>
+</div>
